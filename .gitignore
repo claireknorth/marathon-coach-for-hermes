@@ -1,0 +1,11 @@
+*.log
+*.token*
+.env
+google_token.json
+google_client_secret.json
+strava_*.json
+weather_*.json
+__pycache__/
+*.pyc
+fitness_trend_state.json
+coach-memory.md

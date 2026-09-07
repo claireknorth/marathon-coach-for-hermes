@@ -1,0 +1,10 @@
+{
+  "name": "Marathon Nightly Prep",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 1 * * *"
+  },
+  "skill": "marathon-morning-check-in",
+  "deliver": "origin",
+  "prompt": "Run the marathon-morning-check-in skill. Review recent training, read the athlete profile and memory, check tomorrow's calendar session and weather, then deliver a compact prep card and coaching note."
+}

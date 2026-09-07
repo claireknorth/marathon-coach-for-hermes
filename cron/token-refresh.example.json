@@ -1,0 +1,10 @@
+{
+  "name": "Marathon Token Auto-Refresh",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 */3 * * *"
+  },
+  "deliver": "origin",
+  "no_agent": true,
+  "script": "/opt/data/skills/marathon-morning-check-in/scripts/refresh_tokens_cron.sh"
+}

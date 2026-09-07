@@ -1,0 +1,39 @@
+athlete:
+  name: "Athlete"
+  timezone: "America/New_York"
+  home_location:
+    label: "Home"
+    latitude: 40.7128
+    longitude: -74.0060
+
+race:
+  name: "Marathon"
+  date: "YYYY-MM-DD"
+  goal: "finish"
+  goal_pace_per_mile: null
+
+training_plan:
+  provider: "Runna"
+  start_date: "YYYY-MM-DD"
+  weeks: 20
+  calendar_id: "replace-with-training-calendar-id"
+
+heart_rate_zones:
+  z1_max: 124
+  z2_min: 125
+  z2_max: 155
+  z3_min: 156
+  z3_max: 170
+  z4_min: 171
+  z4_max: 185
+  z5_min: 186
+
+preferences:
+  earliest_start_time: "07:00"
+  preferred_alternate_time: "18:30"
+  easy_effort_rule: "Use heart rate and conversational effort over pace."
+  delivery_style: "Compact card plus short coaching note."
+
+constraints:
+  active_injury: null
+  pain_gate: "Stop if pain changes gait, becomes sharp, or worsens during the session."
